@@ -1,1 +1,61 @@
-h1{font-family:'Courier New', Courier, monospace;color: chartreuse;}
+/*.css page1*/
+
+body{font-family:'tt_jenevers';color:white}
+h1{font-size: 56px; color:white; text-align: center;}
+
+
+ligne {border:1px solid black;padding: 10px;}
+
+/*Comment utiliser le display Flex ?
+Apprendre à utiliser les Flexbox.
+Une Flexbox c'est une boîte conteneur que l'on appelle
+le flex-container et qui contient d'autres boîtes que
+l'on appelle les flex-items. La spécificité réside dans
+le fait que le programmeur à travers les propriétés du
+flex-container va avoir un contrôle quasi total sur la
+répartition des flex-items dans ce dernier.*/
+
+
+.ligne {display: flex;} /*.display: flex permet de */
+
+
+
+a{color: darkkhaki;}
+a:hover{color: chartreuse;}
+a:visited{color: darkorange;} 
+
+/* a:visited{color: darkorange;} Pascal le lien visited 
+ne fonctionne pas, quand je clic sur un lien
+ les autres liens prennent aussi la couleur visited*/
+
+
+
+.colonne{padding: 5px;} /*.permet de */
+
+
+.colonne{flex-basis: 100%;text-align: center; color: white;padding: 5px;font-size: 25px;}
+
+
+#centre75{padding-left: 16%; padding-right:16%; font-size: 20px;color:white;text-align:center}
+
+
+p{text-align: center;font-size: 30px;color:white;}
+
+
+
+header{display: flex; justify-content: center;padding: 50px;}
+.image0{width: 50%;height: 300px;}
+
+
+img{width: 75%;height: 75%;border-radius: 15px;}
+
+
+a{text-decoration: none;}
+
+body{background-color:black;}
+
+/*.css page 2 */
+
+#concombre{width: 150px;height: 150px;}
+
+   
